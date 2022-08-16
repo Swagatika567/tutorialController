@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="10021" started-at="2022-08-16T11:18:10 IST" finished-at="2022-08-16T11:18:20 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@369f73a2]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Command line test" duration-ms="10021" started-at="2022-08-16T11:18:10 IST" finished-at="2022-08-16T11:18:20 IST">
+      <class name="Runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Runner.TestRunner@369f73a2]" name="setUpClass" is-config="true" duration-ms="812" started-at="2022-08-16T11:18:11 IST" finished-at="2022-08-16T11:18:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@369f73a2]" name="runScenario" duration-ms="3139" started-at="2022-08-16T11:18:12 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-16T11:18:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user resource can be created"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Tutorial feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@369f73a2]" name="runScenario" duration-ms="170" started-at="2022-08-16T11:18:15 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-16T11:18:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user updated successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Tutorial feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@369f73a2]" name="runScenario" duration-ms="257" started-at="2022-08-16T11:18:15 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-16T11:18:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user deleted successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Tutorial feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@369f73a2]" name="runScenario" duration-ms="233" started-at="2022-08-16T11:18:15 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-16T11:18:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user description gets updated"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Tutorial feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@369f73a2]" name="runScenario" duration-ms="200" started-at="2022-08-16T11:18:16 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-16T11:18:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that title field is required"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Tutorial feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@369f73a2]" name="runScenario" duration-ms="312" started-at="2022-08-16T11:18:16 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-16T11:18:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that title should only be test"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Tutorial feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@369f73a2]" name="runScenario" duration-ms="137" started-at="2022-08-16T11:18:16 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-16T11:18:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify error is thrown when title is given in alphanumeric characters"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Tutorial feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@369f73a2]" name="runScenario" duration-ms="195" started-at="2022-08-16T11:18:16 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-16T11:18:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the description getting updated"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Tutorial feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@369f73a2]" name="runScenario" duration-ms="140" started-at="2022-08-16T11:18:16 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-16T11:18:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the id should not accept alphanumeric characters"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Tutorial feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@369f73a2]" name="runScenario" duration-ms="177" started-at="2022-08-16T11:18:17 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-16T11:18:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the title gets updated"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Tutorial feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@369f73a2]" name="runScenario" duration-ms="126" started-at="2022-08-16T11:18:17 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-16T11:18:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["create a list"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Tutorial feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@369f73a2]" name="runScenario" duration-ms="210" started-at="2022-08-16T11:18:17 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-16T11:18:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify error is thrown when published is given in integers"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Tutorial feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runner.TestRunner@369f73a2]" name="tearDownClass" is-config="true" duration-ms="2929" started-at="2022-08-16T11:18:17 IST" finished-at="2022-08-16T11:18:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.TestRunner -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
